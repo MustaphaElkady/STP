@@ -13,7 +13,8 @@ import logging
 import yaml
 from yaml import CLoader as Loader
 from copy import deepcopy
-from pytorch_lightning.profiler import SimpleProfiler
+from pytorch_lightning.profilers import SimpleProfiler
+
 import os 
 from flatten_dict import flatten, unflatten
 
